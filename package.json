@@ -11,12 +11,14 @@
   },
   "keywords": [
     "Books",
-    "-",
     "ERC-20"
   ],
   "author": "Pradhumna Pancholi",
   "license": "ISC",
   "dependencies": {
     "@openzeppelin/contracts": "^3.2.0"
+  },
+  "devDependencies": {
+    "solc": "^0.6.10"
   }
 }
