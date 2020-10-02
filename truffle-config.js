@@ -61,6 +61,16 @@ module.exports = {
       gasPrice: 25000000000,
       network_id: 3,
     },
+    // kovan//
+    kovan: {
+      provider: () => {
+        return new HDWalletProvider(
+          process.env.MNEMONIC,
+          `https://kovan.infura.io/v3/${process.env.INFURA_PROJECT_ID}`
+        )
+      },
+      network_id: '*',
+    },
     // Main Ethereum Network//
     mainnet: {
       provider: () => {
