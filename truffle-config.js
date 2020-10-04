@@ -69,6 +69,8 @@ module.exports = {
           `https://kovan.infura.io/v3/${process.env.INFURA_PROJECT_ID}`
         )
       },
+      gas: 5000000,
+      gasPrice: 25000000000,
       network_id: '*',
     },
     // Main Ethereum Network//
